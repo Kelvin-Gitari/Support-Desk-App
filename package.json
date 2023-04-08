@@ -1,0 +1,13 @@
+{
+  "name": "react-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build" : "cd support-desk-app-backend && npm install && cd ../support-desk-app-frontend && npm install && npm run build",
+    "start": "node support-desk-app-backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
